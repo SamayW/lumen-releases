@@ -1,62 +1,114 @@
+<div align="center">
+
 # Lumen
 
-A dark, minimal **Liquid Glass** panel that lives in your Mac's notch, plus the **Lumen Bar**, a glass menu bar built around it.
+**The notch was dead space. Now it's the busiest few pixels on your Mac.**
 
-Designed and developed by **Samay Wadhwani**.
+Point at it and it opens into a sheet of dark glass that knows what's playing, what's next, what you just copied and what Claude is waiting on. Move away and it's a notch again.
 
-**[⬇ Download the latest Lumen.zip](https://github.com/SamayW/lumen-releases/releases/latest/download/Lumen.zip)**
+*Designed and built by **Samay Wadhwani***
 
-![Lumen Bar](docs/bar.png)
+<br>
 
-| | |
-|---|---|
-| ![Today](docs/panel-today.png) | ![AI Agents](docs/panel-agents.png) |
-| ![Permission prompt](docs/panel-permission.png) | ![Brand](docs/panel-brand.png) |
+### [Download Lumen for Mac](https://github.com/SamayW/lumen-releases/releases/latest/download/Lumen.zip)
 
-## Install (2 minutes)
+<sub>Free · macOS 14 or newer · Apple Silicon and Intel · updates itself</sub>
 
-1. Download **Lumen.zip** (link above), unzip it and open the **Lumen** folder.
-2. Double-click **Install Lumen.command**.
-   If macOS says it "cannot be verified" (it isn't from the App Store): open **System Settings → Privacy & Security**, scroll down, click **Open Anyway**, then double-click the installer again.
-3. Answer the questions, then point at the notch.
-4. In the **Lumen Setup** window, click **Set Everything Up**. You can reopen it any time: right-click the Lumen Bar → Lumen Setup…
+<br>
 
-**Needs** macOS 14 Sonoma or newer, Apple Silicon or Intel. The full glass look needs macOS 26 Tahoe; older versions get a solid dark panel. On Macs without a notch it sits at the top centre of the screen.
+![Lumen, the Today tab](docs/panel-today.png)
 
-## What it does
-
-**The notch panel.** Point at the notch and it grows into a glass panel.
-- Now playing (Spotify / Apple Music) with controls
-- Your next meeting with a Join button, plus today's schedule
-- **Shelf**: screenshots land there, drop any file to park it, drag it out anywhere. Copy text from an image, AirDrop, mark up
-- **Clipboard** history (password managers skipped)
-- **Note**: quick notes saved to Apple Notes, kept as sticky cards
-- Focus timer, Keep Awake, weather, Mac and AirPods battery
-
-**For developers: AI Agents.**
-- Every running Claude Code session as a pill. Tap one to read its latest reply
-- Reply to a session right from the notch (Terminal / iTerm)
-- Answer Claude Code permission prompts with **Allow / Deny** from the notch
-- Alerts when Claude needs you or finishes
-
-**For marketers: Brand.**
-- Tracked links: paste a URL, pick LinkedIn, Instagram, X, Newsletter or Google Ads, copy the link with UTM tags filled in
-- Brand kit: colours (eyedropper, click to copy hex) and logos (click to copy, drag into any app)
-
-**The Lumen Bar.** Glass pills either side of the notch that replace Apple's menu bar: the front app's menus, Wi-Fi, battery, clock and calendar, Control Center, weather, music. Right-click it → Customize Lumen Bar…
-
-**Two displays?** The notch follows your mouse. Right-click the panel → Show Notch On to pin it to one display.
-
-## Updates
-
-Install once, and Lumen keeps itself up to date. When a new version is out, a green **Update to x.y** button appears at the top of the panel: click it and Lumen downloads, installs and relaunches. Right-click the panel → **Check for Updates…** to check now. (After an update, macOS may ask for Accessibility again.)
-
-Every version is listed under [Releases](https://github.com/SamayW/lumen-releases/releases).
-
-## Uninstall
-
-Right-click the panel → Quit Lumen, then delete `~/Applications/Lumen.app`.
+</div>
 
 ---
 
-© 2026 Samay Wadhwani. All rights reserved.
+## A day with Lumen
+
+**08:58** · A meeting starts in two minutes. The closed notch has been counting it down at the edge of your eye. Point at it and press **Join**.
+
+**10:14** · You take a screenshot. Lumen catches it on the **Shelf** and opens there, so you can drag it straight into Slack, AirDrop it, mark it up or copy the text out of it.
+
+**11:30** · A YouTube video is playing in your browser. It shows up in the notch the same way Spotify or Apple Music would: title, channel, a progress bar and controls. The panel's glow takes on the album art's colour.
+
+**13:05** · Claude Code wants to run `pnpm test`. A card drops out of the notch showing the exact command, with **Allow**, **Always allow** and **Deny with a reason** next to it. If Claude is asking a question instead, you get the choices as buttons. If it's a plan, you can read it and approve it there.
+
+**15:40** · You've copied ten things since lunch. The **Clipboard** tab still has all of them (password managers are skipped).
+
+**17:20** · You turn the volume up. The level grows out of the notch, not Apple's pop-up in the corner.
+
+**18:00** · A thought you don't want to lose goes into **Note**. It's saved to Apple Notes, so it's on your iPhone too.
+
+Then ⌥Space, Esc, and the notch is quiet again.
+
+| | |
+|---|---|
+| ![AI Agents](docs/panel-agents.png) | ![Claude's plan, ready to approve](docs/panel-permission.png) |
+| ![Clipboard](docs/panel-clipboard.png) | ![Notes](docs/panel-notes.png) |
+
+---
+
+## What's inside
+
+<table>
+<tr><td width="50%" valign="top">
+
+**The panel**
+- Now playing from anything: YouTube in any browser, Spotify, Apple Music, podcasts
+- Your next meeting, with a Join button and a countdown
+- **Shelf** for screenshots, downloads and anything you drop on it
+- **Clipboard**: your last 10 copies
+- **Note**: sticky cards that save to Apple Notes
+- **Today**: the rest of your day on a timeline, with the free gaps marked
+- Keep Awake, focus timer, weather, Mac and AirPods battery
+
+</td><td width="50%" valign="top">
+
+**For people who work with Claude Code**
+- **AI Agents**: every running session as a pill. Read its latest reply and answer it without leaving what you're doing
+- **Prompt cards** that fit the ask: commands as code, file edits as a diff, questions as choices, plans with Approve / Keep planning
+- "Claude needs you" and "Claude finished" in the closed notch
+
+**And the small things**
+- Volume and brightness in the notch
+- ⌥Space from anywhere, 1–5 for tabs, Esc to close
+- Compact mode for 13-inch screens
+- Follows your mouse across two displays
+
+</td></tr>
+</table>
+
+---
+
+## Install in two minutes
+
+1. **[Download Lumen.zip](https://github.com/SamayW/lumen-releases/releases/latest/download/Lumen.zip)**, unzip it and open the **Lumen** folder.
+2. Double-click **Install Lumen.command**.
+   If macOS says it "cannot be verified", open **System Settings › Privacy & Security**, scroll down, click **Open Anyway**, then double-click the installer again.
+3. In the **Lumen Setup** window, click **Set Everything Up**. Then point at the notch.
+
+Everything else lives in **Settings**: the gear in the panel, or open Lumen again. To answer Claude Code from the notch, go to **Settings › Permissions › Connect**.
+
+The full Liquid Glass look needs macOS 26 Tahoe; older versions get a solid dark panel. On a Mac without a notch, Lumen sits at the top centre of the screen.
+
+---
+
+## Quiet by design
+
+Lumen does nothing while you're not looking at it. At rest it uses about **0% CPU**: it waits for your mouse instead of watching it, and the glass only renders while the panel is open.
+
+It also keeps itself up to date. When a new version is out, an **Update** button appears at the top of the panel. One click and Lumen checks the download is a genuine release, installs it and relaunches. Every version is listed under **[Releases](https://github.com/SamayW/lumen-releases/releases)**.
+
+Something not right? Open **Settings › About › Report a Problem…**. It copies a report you can read before you send it, and nothing leaves your Mac unless you paste it somewhere.
+
+**Uninstall:** right-click the panel › Quit Lumen, then delete `~/Applications/Lumen.app`.
+
+---
+
+<div align="center">
+
+**Lumen** is designed and built by **[Samay Wadhwani](https://github.com/SamayW)**.
+Also by Samay: **[Glow Dock](https://github.com/SamayW/glow-dock)**, the matching glow-glass Dock.
+
+<sub>© 2026 Samay Wadhwani · <a href="LICENSE">License</a></sub>
+
+</div>
