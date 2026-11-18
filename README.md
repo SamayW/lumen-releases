@@ -1,12 +1,13 @@
 <div align="center">
 
-# Lumen
+<img alt="Lumen. The notch, made useful. By Samay Wadhwani." src="docs/banner.svg" width="100%">
+
+<br><br>
 
 **The notch was dead space. Now it's the busiest few pixels on your Mac.**
 
 Point at it and it opens into a sheet of dark glass that knows what's playing, what's next, what you just copied and what Claude is waiting on. Move away and it's a notch again.
 
-*Designed and built by **Samay Wadhwani***
 
 <br>
 
